@@ -34,7 +34,7 @@ The site is deployed as a Cloudflare Worker with static assets (see `wrangler.js
 2. In this GitHub repository add:
    - Secret `CLOUDFLARE_API_TOKEN`
    - Secret `CLOUDFLARE_ACCOUNT_ID`
-   - Variable `SITE_URL` — the public URL of the site, e.g. `https://sharonmazganim.co.il` (used for canonical, hreflang, sitemap and OG URLs). Defaults to `https://sharon-mazganim.pages.dev` when unset.
+   - Variable `SITE_URL` — the public URL of the site, e.g. `https://www.sharonmazganim.com` (scheme optional) (used for canonical, hreflang, sitemap and OG URLs). Defaults to `https://sharon-mazganim.pages.dev` when unset.
 3. Push to `main` — `.github/workflows/deploy.yml` typechecks, builds and runs `wrangler deploy`.
 
 ### Deploy from your machine

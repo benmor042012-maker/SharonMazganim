@@ -21,7 +21,7 @@ jobs:
       - run: pnpm check
       - run: pnpm build
         env:
-          SITE_URL: ${{ vars.SITE_URL }}
+          SITE_URL: ${{ vars.SITE_URL }} # e.g. https://www.sharonmazganim.com (scheme optional)
       - name: Deploy (Cloudflare Workers static assets)
         uses: cloudflare/wrangler-action@v3
         with:
