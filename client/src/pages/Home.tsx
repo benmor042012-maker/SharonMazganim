@@ -221,10 +221,12 @@ function Home() {
             <div className="hero-visual">
               <div className="hero-image-wrap">
                 <img
-                  src="/images/hero-technician.svg"
+                  src="/images/hero-technician.webp"
+                  srcSet="/images/hero-technician-720.webp 720w, /images/hero-technician.webp 1200w"
+                  sizes="(max-width: 720px) 100vw, (max-width: 1000px) 680px, 600px"
                   alt={t.hero.imgAlt}
-                  width={760}
-                  height={500}
+                  width={1200}
+                  height={934}
                   fetchPriority="high"
                   decoding="async"
                 />
@@ -397,10 +399,12 @@ function Home() {
           <div className="container about-grid">
             <div className="about-photo">
               <img
-                src="/images/about-detail.svg"
+                src="/images/about-detail.webp"
+                srcSet="/images/about-detail-560.webp 560w, /images/about-detail.webp 900w"
+                sizes="(max-width: 720px) 100vw, 520px"
                 alt={t.about.imgAlt}
-                width={560}
-                height={500}
+                width={900}
+                height={900}
                 loading="lazy"
                 decoding="async"
               />
