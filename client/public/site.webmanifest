@@ -1,0 +1,14 @@
+{
+  "name": "שרון מזגנים",
+  "short_name": "שרון מזגנים",
+  "lang": "he",
+  "dir": "rtl",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f7f8f7",
+  "theme_color": "#0d213d",
+  "icons": [
+    { "src": "/images/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/images/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
